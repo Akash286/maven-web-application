@@ -22,7 +22,7 @@ node {
         sshagent(['939a5f26-49ae-4e30-8177-9c5e1fb2b513']) {
     // some block
    
-    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@65.0.173.55:/opt/apache-tomcat-9.0.40/webapps" 
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@15.207.111.190:/opt/apache-tomcat-9.0.40/webapps" 
 }
     }
     
