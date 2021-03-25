@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: javacont
-        image: dockerhakashde/image:tags
+        image: dockerakashde/image:tags
         ports:
         - containerPort: 8080
         resources:
