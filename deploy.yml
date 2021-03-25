@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: javacont
-        image: dockerhakashde/maven-web-app:tags
+        image: dockerhakashde/image:tags
         ports:
         - containerPort: 8080
         resources:
