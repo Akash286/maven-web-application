@@ -17,7 +17,6 @@ spec:
         image: dockerakashde/image:tags
         ports:
         - containerPort: 8080
-     
 ---
 apiVersion: v1
 kind: Service
